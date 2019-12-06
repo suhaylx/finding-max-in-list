@@ -33,3 +33,12 @@ def higest_even(m_list):
 
 
 print(higest_even([10, 2, 3, 4, 8, 11]))
+ #Another one 
+
+
+def that_function(*args):
+
+   return sum(args)
+# parameter with * means that you can give infinently many arguments to that_function
+
+print(that_function(1,2,4,5))
